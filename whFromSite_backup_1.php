@@ -42,7 +42,7 @@ class Evotor
      */
     public static function initCurl($urlapi)
     {
-        $username = 'superviser@dmitriy12';
+        $username = 'example@example';
         $password = 'F1o55yi9';
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $urlapi);
@@ -134,7 +134,7 @@ class Evotor
     {
         $data_json = file_get_contents('target.json');
 
-        $username = 'vnovikov@kit-consulting.ru';
+        $username = 'example@example.ru';
         $password = 'forruv-jywpoq-0dEnhe';
         $store_id = '20180323-F567-406C-80EB-C507AF541F57';
         $token = '5c2545af-3036-489f-8837-d0d0b8832f71';
